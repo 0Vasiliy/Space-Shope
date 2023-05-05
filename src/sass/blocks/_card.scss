@@ -1,0 +1,209 @@
+.space_product{
+    margin-top: -545px;
+    width: 620px;
+    height: 730px;
+    h1{
+        margin-top: 3px;
+        margin-left: -2px;
+        width: 620px;
+        height: 50px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 43px;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+}
+
+// card sm
+.space_product_sm{
+        margin-top: 2.7%;     
+        display: grid;
+        grid-template-columns: 200px 200px 200px;       
+        grid-template-rows: minmax(310px, auto);
+        grid-auto-rows: minmax(310px, auto);
+        column-gap: 10px;
+        row-gap: 10px;
+        &_card{
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 4px;
+        }
+        img{
+            width: 200px;
+            height: 150px;
+        }
+}
+.space_product_sm_card_title{
+    margin-top: -3%;  
+    margin-left: 5.7%; 
+    width: 180px;
+    height: 60px;
+    h1{
+        width: 180px;
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #131316;
+    }
+}
+.space_product_sm_card_price{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    h1{
+        margin-left: 10px;
+        width: 90px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-decoration-line: line-through;
+        color: #D9D9D9;
+        border: none;
+    }
+    h2{
+        width: 90px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #131316;
+    }
+}
+.space_product_sm_card_btn{
+    margin-top: 9px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    a{
+        position: relative;
+        top: 7px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }   
+}
+.price_new_1{
+    margin-left: 13%;
+    margin-top: -1%;
+}
+.price_new_2{
+    margin-left: 1%;
+    margin-top: -1%;
+}
+.price_new_3{
+    margin-left: 34%;
+}
+
+//card md
+.space_product_md{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 305px 305px;       
+    grid-template-rows: minmax(340px, auto);
+    grid-auto-rows: minmax(340px, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    &_card{
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+    img{
+        width: 305px;
+        height: 171.56px;
+    }
+}
+.space_product_md_card_title{
+    margin-top: 10px;
+    width: 285px;
+    height: 60px;
+    h1{
+        margin-left: 3.3%;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-start;
+      
+        color: #131316;
+    }
+}
+.space_product_md_card_price{
+    display: flex;
+    margin-top: 2%;
+    width: 285px;
+    height: 30px;
+    h1{
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #131316;
+    }
+}
+.space_product_md_card_btn{
+    margin-top: 2.28%;
+    width: 285px;
+    height: 40px;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    a{
+        position: relative;
+        top: 15%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+.md_h1_title{
+    position: relative;
+    left: 15px;
+}

@@ -1,0 +1,33 @@
+
+
+
+*{
+    margin: 0 auto;
+    padding: 0;   
+}
+html {
+    box-sizing: content-box;
+}
+
+body{
+    margin: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container{
+    margin: 0 auto;
+    max-width: 620px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/card';
+@import 'blocks/day';
+@import 'blocks/button';
+@import 'blocks/footer';
+
+@import 'base/fonts';
+
+

@@ -1,0 +1,240 @@
+.space_day{
+    margin-top: 50px;
+    width: 620px;
+    height: 540px;
+    &_block{
+        margin-top: 20px;
+        display: block;
+        width: 620px;
+        height: 470px;
+        background: #FFFFFF;
+    }
+}
+.space_day_block_img{
+    width: 305px;
+    height: 305px;
+    margin-left: 0;
+    margin-top: 0;
+    img{
+        position: relative;
+        width: 305px;
+        height: 305px;
+    }
+}
+
+.space_day_block_info{
+    position: relative;
+    width: 295px;
+    height: 247px;
+    margin-right: 1%;
+    margin-top: -44.5%;
+}
+.space_day_block_title{
+    margin-top: 2%;
+    margin-left: -1%;
+    width: 295px;
+    height: 30px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #131316;
+}
+.space_day_block_subtitle{
+    margin-top: 1%;
+    margin-left: -1%;
+    width: 295px;
+    height: 30px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #131316;
+}
+.space_day_block_price{
+    display: flex;
+    margin-top: 21px;
+    margin-left: -3%;
+    width: 240px;
+    height: 24px;
+    &_old{
+        width: 60px;
+        height: 20px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-decoration-line: line-through;
+        color: #D9D9D9;
+    }
+    &_old_2{
+        position: relative;
+        left:0px;
+        width: 60px;
+        height: 20px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-decoration-line: line-through;
+        color: #D9D9D9;
+    }
+    &_new{
+        position: relative;
+        left:5px;
+        width: 60px;
+        height: 20px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #131316;
+    }
+    &_stock{
+        position: relative;
+        left:8px;
+        width: 60px;
+        height: 24px;
+        background: #FF0000;
+        border-radius: 4px;
+        h2{
+            width: 60px;
+            height: 20px;
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}
+.space_day_block_group{
+    margin-top: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    height: 90px;
+}
+.space_day_block_discaunt{
+    position: relative;
+    left: -2%;
+    display: flex;
+    width: 240px;
+    height: 30px;
+    &_stock{      
+        width: 180px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #131316;
+    }
+    &_price{     
+        width: 60px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        color: #131316;
+    }
+}
+.space_day_block_discaunt_2{
+    position: relative;
+    left: -2%;
+    top: -5%;
+    display: flex;
+    width: 240px;
+    height: 30px;
+    &_promo{
+        width: 180px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #131316;
+    }
+    &_price{
+        width: 60px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        color: #131316;
+    }
+}
+.space_day_block_discaunt{
+    position: relative;
+    left: -2%;
+    top: -5%;
+    display: flex;
+    width: 240px;
+    height: 30px;
+    &_mt{
+        width: 180px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: row;
+        color: #131316;
+    }
+    &_rt{
+        width: 60px;
+        height: 30px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        color: #FF0000;
+    }
+}

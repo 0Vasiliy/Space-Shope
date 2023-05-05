@@ -1,0 +1,48 @@
+.space_day_block_btn_ship{
+    width: 280px;
+    height: 60px;   
+    border: 1px dashed #131316;
+    border-radius: 4px;
+    &_text{     
+        margin-top: 15px; 
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #131316;
+        text-decoration: none;
+    }
+}
+.space_day_block_btn_order{
+    margin-top: 10px;
+    width: 280px;
+    height: 60px; 
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    &_text{
+        margin-top: 15px;
+        text-decoration: none;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    } 
+}
+.space_day_block_btn{
+    margin-top: 30px;
+    width: 280px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
