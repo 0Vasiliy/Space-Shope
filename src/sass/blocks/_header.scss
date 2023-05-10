@@ -37,6 +37,7 @@
     height: 40px;
     background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
     border-radius: 4px;
+    z-index: 11;
     &_link{
         margin-top: 8px;
         text-decoration: none;
@@ -50,5 +51,6 @@
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
+       
     }
 }
